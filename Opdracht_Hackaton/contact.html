@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title>Contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="index.html"><img id="logo" src="Img/logo.svg"></a>
+            <ul>
+                <li> <a href="index.html">HOME</a> </li>
+                <li> <a href="about.html">OVER JUICE</a> </li>
+                <li> <a href="about.html">VERKOOPPUNTEN</a> </li>
+                <li> <a href="webshop.html">WEBSHOP</a> </li>
+                <li> <a href="contact.html"><b>CONTACT</b></a> </li>
+                <li> <a href="webshop.html"><img id="winkelmandje" src="Img/bag.svg"></a> </li>
+
+            </ul>
+        </nav>
+        <div class="topnav">
+            <a href="index.html" class="active"><img id="logomob" src="Img/logo.svg"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html">HOME</a>
+                <a href="about.html">OVER JUICE</a>
+                <a href="verkooppunten.html">VERKOOPPUNTEN</a>
+                <a href="webshop.html">WEBSHOP</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <main id="main">
+        <div class="slider">
+            <img src="Img/slidercontact.jpg" alt="juice">
+            <a href="webshop.html"><button class="btn">
+                    BESTEL NU JE SMOOTHIES
+                </button></a>
+        </div>
+        <script src="Javascript.js"></script>
+        <div id="USP">
+            <table width="100%">
+                <tr>
+                    <td>
+                        <h2><img class="icoon1" src="Img/lemon-slice.svg">100% Verse sappen</h2>
+                    </td>
+                    <td>
+                        <h2><img class="icoon1" src="Img/bio.svg">Biologisch & homemade</h2>
+                    </td>
+                    <td>
+                        <h2><img class="icoon1" src="Img/shopping-bag.svg">15 verkooppunten</h2>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div id="contact">
+            <h3>Contact</h3>
+            <form id="contactform">
+                <img id="contactafb" src="Img/Gouden_Pand1_Appingedam.jpg" />
+                <p>Naam:<br>
+                    <input type="text" name="firstname"><br>
+                    E-mail: <br>
+                    <input type="email" name="e-mail"><br>
+                    Telefoonnummer: <br>
+                    <input type="tel" name="tel"><br>
+                    Geboortedatum: <br>
+                    <input type="date" name="Geboortedatum"><br>
+                    Bericht: <br>
+                    <textarea> </textarea><br>
+                </p>
+                <input type="submit" value="Verzend mijn bericht">
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <table id="footer" width="100%">
+            <tr>
+                <td>
+                    <h3>Contact</h3>
+                    <p> Straatnaam 1<br>
+                        1234 AB Plaats <br><br>
+                        <a href="mailto:info@juice.nu">info@juice.nu</a><br>
+                        0123 - 456 78
+                    </p>
+                </td>
+                <td>
+                    <h3>Pagina's</h3>
+                    <p> <a href="index.html">Home</a> <br>
+                        <a href="about.html">Over Juice</a> <br>
+                        <a href="about.html">Verkooppunten</a> <br>
+                        <a href="about.html">Webshop</a> <br>
+                        <a href="contact.html">Contact</a><br>
+                    </p>
+                </td>
+                <td>
+                    <h3>Artikelen</h3>
+                    <p> <a href="index.html">Over juice</a> <br>
+                        <a href="about.html">Hoe gezond is groente?</a> <br>
+                        <a href="about.html">De beste groente voor je smoothie</a> <br>
+                        <a href="about.html">Banaan in je smootie</a> <br>
+                        <a href="contact.html"> Lees alle artikelen</a><br>
+                    </p>
+
+                </td>
+            </tr>
+        </table>
+
+        <center>
+            <p>© 2021 Yasmin Evans </p>
+        </center>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,604 @@
+body {
+    margin: 0px;
+    padding: 0px;
+} 
+h2 {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h3 {
+    margin: 0px;
+    font-family: 'Caveat', cursive;
+    color: #fbbf3b;
+    font-size: 39px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+    color: #555;
+}
+
+header {
+    margin: 5px 10px 15px 180px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: #fbbf3b;
+}
+
+nav ul {
+    float: right;
+    margin-right: 180px;
+    margin-top: 22px;
+    padding-bottom: 20px;
+}
+
+nav li {
+    display: block;
+    list-style: none;
+    padding: 10px;
+    padding-right: 10px;
+    order: initial;
+    float: left;
+}
+#logo {
+    width: 150px;
+    float: left;
+}
+
+#winkelmandje {
+    width: 20px;;
+}
+
+.icoon1 {
+    width: 20px;
+    padding-right: 18px;
+}
+
+#icoon2 {
+    width: 20px;
+    padding-right: 18px;
+}
+
+.slider {
+    width: 100%;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slider .btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 13px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 360px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  .slider .btn:hover {
+    background-color: #fbbf3b;
+  }
+
+
+#USP {
+    background-color: #fbbf3b;
+    margin-top: -10px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 30px;
+    height: 60px;
+}
+
+#REVIEWS {
+    background-color: #eeeeee;
+    margin-top: -10px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 50px;
+    
+}
+
+#soorten p {
+    text-align: center;
+    margin: 40px;
+}
+
+#soorten {
+    text-align: center;
+}
+
+.soortenafb {
+    height: 300px;
+}
+
+
+
+#reviewsid {
+    text-align: center;
+    padding: 30px;
+    
+}
+
+#reviewsid td {
+    width: 25%;
+}
+
+#reviewsid p {
+    padding: 15px;
+}
+
+#INFO {
+    padding-right: 180px;
+    padding-left: 180px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+#INFOSOORTEN{
+padding-right: 180px;
+padding-left: 180px;
+margin-top: 90px;
+margin-bottom: 90px;
+}
+
+#WEBSHOP{ 
+    padding-right: 180px;
+    padding-left: 180px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    }
+
+
+#howitsmade {
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 90px;
+    background-color: #fbbf3b;
+    color: white;
+}
+
+#howitsmade p{
+    padding-left: 30px;
+    color: white;
+}
+#howitsmade h3{
+    padding-left: 30px;
+    color: white;
+}
+
+#vrouw {
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+#man {
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.button {
+    background-color: #555;
+    color: white;
+    font-size: 13px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+.button:hover {
+    background-color: #fbbf3b;
+  }
+
+  .buttonbestellen {
+    background-color: #555;
+    color: white;
+    font-size: 13px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 25px;
+  }
+
+.buttonbestellen:hover {
+    background-color: #fbbf3b;
+  }
+
+  .reviewpicture {
+      border-radius: 50%;
+      width: 150px;;
+  }
+
+  footer {
+      background-color: #555;
+      margin-top: -10px;
+      width: 100%;
+      padding-bottom: 10px;
+  }
+
+  #footer {
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #footer p {
+      color: white;
+  }
+
+  footer p {
+      color: white;
+  }
+
+
+  #footer a {
+      color: white;
+  }
+
+#footer a:hover {
+    color: #fbbf3b;
+}
+footer td {
+    width: 33.3%;
+}
+
+input {
+    width: 500px;
+}
+
+textarea {
+    width: 500px;
+    height: 70px;
+}
+
+input[type=submit] {
+    background-color: #555;
+    color: white;
+    font-size: 13px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #fbbf3b;
+  }
+
+  #INFOMOBILE {
+    display: none;
+  }
+
+  #REVIEWSMOB {
+    display: none;
+  }
+
+  .slideshow-container {
+    display: none;
+  }
+
+
+  #contact {
+    padding-right: 180px;
+    padding-left: 180px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+  }
+
+  #contactafb {
+      float: right;
+      width: 50%;
+      border-radius: 10px;
+  }
+    .topnav {
+        display: none;
+  }
+
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    h3 {
+        font-size: 180%;
+    }
+
+
+    nav {
+        float: none;
+        width: 100%;
+      }
+      #USP {
+       display: none;
+      }
+
+    main {
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    #logo {
+        float: left;
+        padding-bottom: 10px;
+
+    }
+
+    .slider {
+        padding: 0px;
+        padding-bottom: 15px;
+    }
+    header {
+        margin: 5px 10px 15px 40px;
+    }
+    #sliderimg {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+
+    .slider .btn {
+        display: none;
+    }
+
+    nav {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    #INFOMOBILE {
+        text-align: center;
+        display: inline-block;     
+          margin-left: 12px;
+          margin-right: 12px;    
+          padding-bottom: 25px;
+
+      }
+    #INFO {
+        display: none;
+    }
+
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+
+    #REVIEWS {
+        display: none;
+    }
+  #REVIEWSMOB, #howitsmade H3 {
+        text-align: center;
+        padding: 15px;
+    }
+
+    #reviewsid td {
+        width: 100%;
+    }
+
+    .reviewpicture {
+        width: 70px;
+    }
+
+    #REVIEWSMOB {
+        display: inline-block;     
+    }
+
+    #INFOSOORTEN {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    
+    #WEBSHOP {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .soortenafb {
+        height: 70px;
+    }
+    #howitsmade {
+        padding: 15px;
+        margin-top: 15px;
+        padding-top: 25px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    #howitsmade p {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #footer {
+        padding: 15px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    footer td {
+        width: 100%;
+    }
+
+ 
+    /* Slideshow container */
+ .slideshow-container {
+    display: inline-block;
+    position: relative;
+    background: #eeeeee;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .slideshow-container p {
+      padding: 30px;
+  }
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #fbbf3b;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #eeeeee;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;} 
+
+  #contact  {
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  input {
+    width: 90%;
+    padding-right: 25px;
+}
+
+    textarea {
+        width: 90%;
+        height: 70px;
+        padding-right: 25px;
+    }
+
+    input[type=submit] {
+        width: 98%;
+    }
+
+    #contactafb {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        display: block;
+        padding-left: 0px;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: #555;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        margin-left: 0px;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: #fbbf3b;
+        display: block;
+        position: absolute;
+        right: 22px;
+        top: 22px;
+      }
+
+      /* Style the active link (or home/logo) */
+      .active {
+        color: white;
+        background-color: white;
+      }
+      #logomob {
+          width: 120px;
+          padding: 0px;
+      }
+
+  }
